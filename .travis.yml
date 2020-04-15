@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "13.11.0"
+
+cache: yarn
+
+install:
+  - yarn global add lerna jest
+  - lerna bootstrap
+
+script:
+  - yarn test
+  - yarn build
