@@ -1,8 +1,8 @@
-import React from "react"
-import { shallow } from "enzyme"
-import BlogItem from "./blogItem"
+import React from 'react'
+import { shallow } from 'enzyme'
+import BlogItem from './blogItem'
 
-describe("Layout component", () => {
+describe('Layout component', () => {
   const mockProps = {
     pathContext: {
       data: {
@@ -13,8 +13,8 @@ describe("Layout component", () => {
     },
   }
 
-  it("should render", () => {
-    const wrapper = shallow(<BlogItem {...mockProps} />)
+  it('should render', () => {
+    const wrapper = shallow(< BlogItem {...mockProps} />)
 
     expect(wrapper)
   })
