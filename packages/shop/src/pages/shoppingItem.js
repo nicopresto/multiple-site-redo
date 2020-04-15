@@ -1,11 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Button from '../components/Button'
+import { Button } from '@lerna-monorepo/shared-ui'
 
 export default ({ pathContext: { data }}) => {
-  if (!data) {
-    return null
-  }
+  if (!data) return null
 
   return (
     <div>
