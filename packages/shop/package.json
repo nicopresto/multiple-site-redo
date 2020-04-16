@@ -25,6 +25,7 @@
     "start": "serve public",
     "build": "gatsby build",
     "develop": "gatsby develop -p 8001",
+    "clean": "gatsby clean",
     "test": "jest test --config ../../jest-config.json"
   }
 }
